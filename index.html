@@ -111,7 +111,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <style>
-  *{margin:0px;
+   *{margin:0px;
 padding:0px;
 	
 }
@@ -239,15 +239,16 @@ a{ text-decoration: none;
 			outline: none;
         }
 		  #navbar input{
-            border: none;
+            border: 2px solid white;
             border-radius: 5px;
-			margin-left: 11rem;
+			margin-left: 6.5rem;
 			margin-top: 19px;
             padding: 2px 17px;
-            width: 14.5rem;
-			height:39px;		
+            width: 13rem;
+			height:40px;		
         }
-	  #search-button{
+		
+#search-button{
 
 background-color:transparent;
 border: 2px solid white;
@@ -262,6 +263,21 @@ border-radius:5px;
  padding-bottom: 10px ;
 padding-top: 3px ;
 }	
+
+#navbar ul button:hover{
+
+background-color:brown;
+border: 2px solid white;
+color:white;
+width:6.5rem;
+height:2.5rem;
+margin-left: 6px;
+font-size:1.2rem;
+border-radius:5px;
+ padding-bottom: 10px ;
+padding-top: 3px ;
+}	
+		
 #Our-Courses{
 text-align: center;
 font-size: 5rem;
@@ -366,7 +382,6 @@ flex-direction: column;
 .icons{ height:6rem;
 width: 6rem;
 margin-left: 9rem;
-
 }
 
 #about{
@@ -381,8 +396,16 @@ font-size:2.7rem;
 font-family:serif;
 margin-left:0.3rem
 }
-	  
-	  @media only screen and (max-width: 1324px){
+
+.burger{
+background-color:white;
+width:33px;
+height:4px;
+margin: 3px 3px;
+display:none;
+}
+
+@media only screen and (max-width: 1324px){
 
 #navbar{
 flex-direction: column;
